@@ -560,7 +560,7 @@ footer .list-rodape{
     }
 
     .group-links-header-one img {
-        margin-left: 55px;
+        margin-left: 160px;
     }
 
     header .group-links-header-one li, .group-links-header-two li, .around-input{
@@ -568,9 +568,7 @@ footer .list-rodape{
     }
 
     .aside-one {
-       
-        max-width: 200px;
-       
+        margin-right: 10px;
     }
 
     .container-central {

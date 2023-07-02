@@ -1,0 +1,600 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    background-color: #D9E6F7;
+   
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: #0099FF;*/
+    background-color: #448fc6;
+
+    align-items:center ;
+    height: 45px;
+}
+
+.group-links-header-one {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.group-links-header-one img{
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+.group-links-header-two{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.group-links-header-two .email {
+    font-weight: bold;
+    color: #2a5988;
+    margin-left: 420px;
+    margin-right: 20px;
+}
+
+.group-links-header-one li{
+    margin: 4px;
+}
+
+.group-links-header-two li {
+    margin: 4px;
+}
+.group-links-header-two input {
+    margin-right:60px;
+}
+
+.group-links-header-two a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.group-links-header-one a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.around-input {
+    display: inline-flex;
+    align-items: center;
+    height: 19px;
+    border-radius: 10px;
+    padding: 14px;
+    width: 210px;
+    background-color: #4e78a1;
+    margin-right: 60px;
+    
+}
+ .around-input input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 170px;
+
+}
+
+.around-input .icon-header {
+    display: flex;
+    margin-right: 10px;
+    max-width: 40px;
+    height: auto;
+}
+
+/* Início da main, div 1*/
+
+/* foto, nome e dados pessoais*/ 
+
+.grid-container {
+    display: grid;
+   
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-areas: 
+    'aside-one container-central container-aside-right'
+    ;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+/* definição do grid area */
+.aside-one {
+    grid-area: aside-one;
+}
+
+.container-central {
+    grid-area: container-central;
+}
+
+.container-aside-right {
+    grid-area: container-aside-right;
+}
+
+.aside-one{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(196, 193, 193);
+}
+.container-central{
+    margin-top: 20px;
+   
+}
+
+.profile--photo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.foto-perfil {
+    height: 160px;
+    width: 160px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(243, 239, 239);
+    border-width: 0.001px;
+}
+
+.perfil-name {
+    color: #3879ac;
+}
+
+.datas-perfil {
+    color: grey;
+    margin-top: 8px;
+}
+
+/* links e icons - perfil, recados, fotos, vídeos, depoimentos*/ 
+
+.profile--tools a, .apps a, .configuration a, .friends a, .flex-communities a{
+    text-decoration: none;
+    color: #0c66ee;
+   
+}
+
+
+
+.profile--tools li, .apps li {
+    list-style-type: none;
+    
+}
+
+.li-perfil{
+   display: flex;
+   margin-left: -9px;
+   padding: 2.3px;
+
+}
+.li-perfil img {
+    margin-top: -5px;
+    
+}
+
+.video a { /* alinhamento icon video*/
+    padding: 2.1px;
+    margin-top: -3px;
+}
+.dep  a { /* alinhamento icon depoimento*/
+    padding: 2.3px;
+    margin-top: -4px;
+}
+
+.title-apps {
+    color: rgb(44, 42, 42);
+    padding-bottom: 8px;
+}
+
+/* container central */
+
+.container-central{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px;
+   
+}
+
+.title-bemvindo {
+    color: rgb(56, 49, 49);
+    font-weight: 100;
+}
+
+.section-one-navegation li{
+    display: inline-flex;
+    margin-left: -7px;    
+}
+
+.tip {
+    background-color: rgb(250, 223, 223);
+    margin-bottom: 20px;
+}
+
+.tip span {
+    color: red;
+}
+
+.section-one-navegation, .sinal-maior {
+    margin-left: 6px;
+    margin-right: 6px;
+    color: grey;
+}
+
+.section-one-navegation a, .information--basics a, .friends-number{
+    color: #0c66ee;
+    text-decoration: none;
+}
+
+.section-one-navegation .meu-perfil{
+    color: grey;
+}
+
+/* parte 1 do container central */
+
+.container--central--block--one {
+    background-color: white;
+    padding: 15px 15px 2px 15px;
+    border-radius: 10px 80px 0px 0px;
+    border-bottom: 1px solid rgb(202, 184, 184);
+    box-shadow: 0px 2px 4px rgb(196, 193, 193);
+}
+
+.scraps--photos--fans--messages .icon-title {
+    font-size: small;
+    text-decoration: none;
+    margin-right: 27px;
+}
+
+.scraps--photos--fans--messages .icon-title-photos{
+    font-size: small;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 18px;
+}
+
+.lista-icons-container-central {
+    display: flex;
+}
+
+.lista-icons-container-central a{
+    margin-top: 3px;
+
+}
+.lista-icons-container-central .icon-information {
+    margin-right: 23px;
+}
+
+/* botoes superiores do container central 2 */
+.button-social-profissional a {
+    text-decoration: none;
+}
+
+.button-social {
+    
+    background-color: #6e9ce2;
+    color: white;
+    font-weight: bold;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 10px;
+    border: 1px solid rgb(182, 176, 176);
+}
+
+.button-professional {
+    background-color: white;
+    color: #4e78a1;
+    font-weight: bold;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 10px;
+    border: 1px solid rgb(182, 176, 176);
+}
+
+/* parte 2 do container central */
+.container--central--block--two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    color: rgb(90, 89, 89);
+    box-shadow: 0px 2px 4px rgb(196, 193, 193);
+}
+
+.container--central--block--two  .label-informations {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 10px 0px 10px 10px;
+}
+
+.birth, .intere, .state {
+    background-color: rgb(219, 239, 247);
+}
+
+.relash, .city, .country {
+    background-color: rgb(239, 246, 248);
+}
+
+.intere {
+    height: 55px;
+}
+
+.container--central--block--two  .users-informations {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px 10px 10px 0px;
+}
+
+.container--central--block--two  .label-informations  span, .users-informations  span  {
+    padding: 8px;
+   
+}
+
+/* Inicio do container 3 - amigos / comunidades */
+
+.container-aside-right {
+    margin-top: 13px;
+    display: grid;
+    grid-template-rows: 49% 49%;  
+    gap: 10px; 
+    height: 500px; 
+    width: 320px;
+    padding-top: 10px;
+    row-gap: 19px;
+    
+    background-color: #D9E6F7;
+    
+    
+}
+
+
+.friends-background {
+    
+    width: 320px;
+    height: 470px;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(196, 193, 193);
+}
+
+.friends-background h4 {
+    margin-left: 7px;
+}
+
+.container-aside-right .friends {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 320px;
+    border-radius: 5px;
+    justify-content: center;
+   
+   
+
+}
+
+.friends figure{
+    height: 130px;
+    width: 100px;
+    margin: 2px;
+    background-color: rgb(219, 239, 247)
+}
+
+
+.friends img {
+    margin-top: 3px;
+    margin-left: 14px;
+}
+
+.friends figcaption, .flex-communities figcaption {
+    text-align: center;
+    font-size: 14px;
+}
+
+.friends .btn-view-all {
+    text-decoration: underline;    
+    margin-right: 254px;
+    color: #024c7e;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.my-communities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 230px;
+    background-color: white;
+    border-radius: 10px;
+    height: 330px;
+    box-shadow: 0px 2px 4px rgb(196, 193, 193);
+}
+
+.background-limit-communities {
+   
+    margin-top: 10px;
+    width: 309px;
+    height: 300px;
+   
+}
+
+.flex-communities {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 312px;
+}
+
+.flex-communities figure {
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 3.5px;
+    margin-left: .5px;
+    text-align: center;
+    background-color: rgb(219, 239, 247)
+}
+
+.my-communities .btn-view-all-friends {
+   text-decoration: underline;
+   color: #024c7e;
+   font-size: 15px;
+   margin: 10px 254px 0px 0px;
+}
+
+/* Início do rodapé */
+
+footer {
+    
+    margin-top: 240px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    background-color: white;
+    padding: 10px;
+    height: 46px;
+    border-radius: 7px;
+    box-shadow: 0px 0.5px 2px rgb(175, 171, 171);
+}
+
+
+footer .list-rodape{
+    display: flex;
+    align-items: center;
+   
+}
+
+.list-rodape li {
+    
+    list-style-type: none;
+}
+
+.list-rodape a {
+    color: #0099FF;
+    list-style-type: none;
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.pipe-footer {
+    color: rgb(189, 189, 189);
+    margin-right: 10px;
+}
+
+/* modal com mensagem */
+
+.flex-container-message {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .message {
+    display: fixed;
+    background-color: beige;
+    text-align: justify;
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px grey;
+    opacity: 0;
+    transition: opacity .5s;
+    position: absolute;
+    z-index: 9999;
+    
+  }
+
+  .message  p {
+    margin: 20px;
+  }
+
+  .btn-message-close {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 7px;
+    width: 100%;
+  }
+
+
+  @media (max-width: 375px){
+
+    .btn-message-close{
+      margin-top: 20px;
+      padding: 5px;
+      font-size: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'aside-one'
+        'container-central'
+        'container-aside-right'
+        ;
+        margin-left: 0px;
+        gap: 1px;
+        width: 100vw;
+    }
+
+    header {
+        max-width: 375px;
+    }
+
+    header .group-links-header-one li, .group-links-header-two li, .around-input{
+        display: none;
+    }
+
+    .aside-one {
+        margin-left: 90px;        
+        max-width: 200px;
+       
+    }
+
+    .container-central {
+        margin-left: 6px;
+        margin-bottom: -14px;
+    }
+
+    .intere {
+        height: 70px;
+    }
+    
+    .container-aside-right {
+       margin-left: 30px;
+    }
+
+    footer {
+        max-width: 360px;
+        margin-top: 365px;
+    }
+
+    footer .grid-lista-icons-rodape li {
+        display: none;
+    }
+
+    header .logo-orkut {
+        margin-left: 150px;
+    }
+   
+  }
+
+

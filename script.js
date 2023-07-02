@@ -7,7 +7,7 @@ let bd = document.querySelector('body')
 let tamanho_tela = window.innerWidth;
 
 window.addEventListener('load', ()=>{
-    if(tamanho_tela <= 495){
+    if(tamanho_tela <= 495) {
       setTimeout(() => {
             msg.style.opacity = 1;
             msg.style.display = 'block'

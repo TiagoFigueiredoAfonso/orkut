@@ -559,8 +559,8 @@ footer .list-rodape{
         max-width: 495px;
     }
 
-    .group-links-header-one .logo-orkut {
-        margin-left: 30px;
+    .group-links-header-one img {
+        margin-left: 55px;
     }
 
     header .group-links-header-one li, .group-links-header-two li, .around-input{
@@ -583,7 +583,7 @@ footer .list-rodape{
     }
     
     .container-aside-right {
-       margin-left: 30px;
+       margin-left: 46px;
     }
 
     footer {

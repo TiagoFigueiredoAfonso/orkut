@@ -535,7 +535,7 @@ footer .list-rodape{
   }
 
 
-  @media (max-width: 375px){
+  @media (max-width: 500px){
 
     .btn-message-close{
       margin-top: 20px;
@@ -556,7 +556,11 @@ footer .list-rodape{
     }
 
     header {
-        max-width: 375px;
+        max-width: 495px;
+    }
+
+    header .logo-orkut {
+        margin-left: 210px;
     }
 
     header .group-links-header-one li, .group-links-header-two li, .around-input{
@@ -564,7 +568,7 @@ footer .list-rodape{
     }
 
     .aside-one {
-        margin-left: 90px;        
+        margin-left: 150px;        
         max-width: 200px;
        
     }
@@ -579,11 +583,11 @@ footer .list-rodape{
     }
     
     .container-aside-right {
-       margin-left: 30px;
+       margin-left: 90px;
     }
 
     footer {
-        max-width: 360px;
+        max-width: 490px;
         margin-top: 365px;
     }
 
@@ -591,9 +595,7 @@ footer .list-rodape{
         display: none;
     }
 
-    header .logo-orkut {
-        margin-left: 150px;
-    }
+ 
    
   }
 

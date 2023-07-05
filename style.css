@@ -512,7 +512,7 @@ footer .list-rodape{
     display: fixed;
     background-color: beige;
     text-align: justify;
-    height: 40%;
+    height: 340px;
     width: 350px;
     padding: 20px;
     box-shadow: 0px 0px 4px grey;
@@ -535,7 +535,7 @@ footer .list-rodape{
   }
 
 
-  @media (max-width: 500px){
+   @media (max-width: 375px){
 
     .btn-message-close{
         
@@ -557,7 +557,7 @@ footer .list-rodape{
     }
 
     header {
-        max-width: 495px;
+        max-width: 375px;
     }
 
     .group-links-header-one img {
@@ -569,13 +569,7 @@ footer .list-rodape{
     }
 
     .aside-one {
-       margin-left: 40px;
-    }
-
-    .container-central {
-        margin-left: 15px;
-       margin-right: -50px;
-    
+       margin: 10px;
     }
 
     .intere {
@@ -583,17 +577,89 @@ footer .list-rodape{
     }
     
     .container-aside-right {
-       margin-top: 2px;
-       margin-left: 45px;
        
+        margin-left: auto;
+        margin-right: auto;
     }
-    .my-communities {
-        margin-right: 13px;
-        width: 320px;
+  
+    footer {
+        max-width: 375px;
+        margin-top: 365px;
     }
 
+    footer .grid-lista-icons-rodape li {
+        display: none;
+    }
+
+    @supports (-moz-appearance: none) {
+        /* Regras CSS específicas para o Firefox */
+         .message {
+            height: 380px;
+        }
+
+        
+      }
+
+      @supports (-webkit-touch-callout: none) {
+        /* Regras CSS específicas para o Safari em dispositivos móveis */
+
+        .message {
+            height: 380px;
+        }
+
+      }
+   
+  } 
+  
+  @media (max-width: 412px){
+
+    .btn-message-close{
+        
+      margin-top: 10px;
+      padding: 5px;
+      font-size: 20px;
+    }
+
+    .grid-container {
+       
+        grid-template-areas: 
+          'aside-one'
+          'container-central'
+          'container-aside-right';
+        /* Outras propriedades e estilos específicos do media query */
+        
+        
+      
+        }
+    
+
+    header {
+        max-width: 412px;
+    }
+
+    .group-links-header-one img {
+        margin-left: 170px;
+    }
+
+    header .group-links-header-one li, .group-links-header-two li, .around-input{
+        display: none;
+    }
+
+ 
+    .container-central {
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intere {
+        height: 70px;
+    }
+    
+
+  
     footer {
-        max-width: 490px;
+        max-width: 412px;
         margin-top: 365px;
     }
 
@@ -604,37 +670,39 @@ footer .list-rodape{
     @supports (-moz-appearance: none) {
         /* Regras CSS específicas para o Firefox */
         .message {
-            height: 100px;
+            height: 380px;
         }
 
         .my-communities {
-            height: 365px;
+            height: 370px;
         }
 
         footer {
             margin-top: 390px;
         }
+        
       }
 
       @supports (-webkit-touch-callout: none) {
         /* Regras CSS específicas para o Safari em dispositivos móveis */
 
         .message {
-            height: 65%;
+            height: 380px;
         }
 
         .my-communities {
-            height: 154%;
+            height: 370px;
         }
 
         footer {
-            margin-top: 90%;
+            margin-top: 390px;
         }
+
       }
    
   }
 
-  @media (max-width: 823px) and (min-width:412px){
+  /* @media (max-width: 823px) and (min-width:412px){
 
 
 
@@ -669,4 +737,4 @@ footer .list-rodape{
    
   }
 
-
+ */

@@ -553,7 +553,7 @@ footer .list-rodape{
         ;
         margin-left: 0px;
         gap: 1px;
-        width: 100vw;
+        
     }
 
     header {
@@ -613,6 +613,8 @@ footer .list-rodape{
   
   @media (max-width: 412px){
 
+
+
     .btn-message-close{
         
       margin-top: 10px;
@@ -626,10 +628,10 @@ footer .list-rodape{
           'aside-one'
           'container-central'
           'container-aside-right';
-        /* Outras propriedades e estilos específicos do media query */
+        gap: 0px;
         
+       
         
-      
         }
     
 
@@ -645,13 +647,20 @@ footer .list-rodape{
         display: none;
     }
 
- 
+
+
     .container-central {
-        
-        margin-left: auto;
-        margin-right: auto;
+      
+        margin-top: 0px;
     }
 
+    .container-aside-right {
+        margin-top: 0px;
+    }
+
+
+ 
+    
     .intere {
         height: 70px;
     }
@@ -700,6 +709,50 @@ footer .list-rodape{
 
       }
    
+  }
+
+  @media (orientation: landscape) and (max-width: 823px) {
+   
+
+
+
+    header {
+        max-width: 823px;
+        height: 30px;
+    }
+
+    header a{
+        font-size: 13px;
+    }
+
+    header .logo-orkut {
+        width: 60px;
+    }
+
+    header .group-links-header-two, .around-input {
+        display: none;
+    }
+
+    .aside-one {
+        width: 150px;
+    }
+
+    .aside-one a {
+        font-size: 12px;
+    }
+
+    .figure img {
+        height: 130px;
+        width: 120px;
+    }
+
+    .figure .perfil-name {
+        font-size: 13px;
+    }
+
+    .figure .datas-perfil {
+        font-size: 13px;
+    }
   }
 
   /* @media (max-width: 823px) and (min-width:412px){
